@@ -11,8 +11,8 @@ setup(
         zip_safe = False,
 
         install_requires = ['twisted>=8.2.0',
-                            'PrettyTimedelta>=0.1dev',
-                            'PyYAML>=3.09'],
+                            'PyYAML>=3.09',
+                            'Statobot>=0.1dev'],
 
         author = "Jakub Warmuz",
         author_email = "jakub.warmuz@gmail.com",

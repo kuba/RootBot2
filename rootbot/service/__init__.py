@@ -8,7 +8,7 @@ from twisted.application import service
 from twisted.internet import defer, reactor
 from twisted.web.client import getPage
 
-from rootbot.statobot import StatobotClientFactory
+from statobot.client import StatobotClientFactory
 
 
 class IRootBotService(Interface):

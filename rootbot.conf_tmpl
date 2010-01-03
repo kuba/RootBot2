@@ -1,0 +1,20 @@
+shortener: # bit.ly
+    login:
+    api_key: 
+
+transports:
+    irc:
+        server:   irc.freenode.net
+        nick:     RootBot2
+        password: 
+        channel:  "#rn"
+
+servers:
+    - name : stallman
+      short: s
+      ip:    89.248.165.10
+      port:  65535
+    - name:  esr
+      ip:    89.248.166.198
+      short: e
+      port:  65535
